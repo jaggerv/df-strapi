@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "imagen_principals",
+  "info": {
+    "singularName": "imagen-principal",
+    "pluralName": "imagen-principals",
+    "displayName": "Imagen principal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

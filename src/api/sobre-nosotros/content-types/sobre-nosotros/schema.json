@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sobre_nosotross",
+  "info": {
+    "singularName": "sobre-nosotros",
+    "pluralName": "sobre-nosotross",
+    "displayName": "Sobre nosotros",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "texto": {
+      "type": "text"
+    },
+    "punto1": {
+      "type": "string"
+    },
+    "punto2": {
+      "type": "string"
+    },
+    "punto3": {
+      "type": "string"
+    },
+    "video1": {
+      "type": "string"
+    },
+    "video2": {
+      "type": "string"
+    },
+    "video3": {
+      "type": "string"
+    }
+  }
+}
